@@ -1,4 +1,7 @@
-# htpasswd-auth [![Circle CI](https://circleci.com/gh/dickeyxxx/htpasswd-auth/tree/master.svg?style=svg)](https://circleci.com/gh/dickeyxxx/htpasswd-auth/tree/master)
+# htpasswd-authenticator
+
+Forked from [dickeyxxx's htpasswd-auth](https://github.com/dickeyxxx/htpasswd-auth)
+This fork contains updated hash node modules which allows usage for node >8
 
 read/write htpasswd files
 

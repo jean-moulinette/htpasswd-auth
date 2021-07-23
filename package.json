@@ -1,19 +1,20 @@
 {
-  "name": "htpasswd-auth",
-  "version": "2.0.1",
-  "description": "authenticate with htpasswd files",
+  "name": "htpasswd-authenticator",
+  "version": "1.0.0",
+  "description": "authenticate with htpasswd files for node 8+",
   "main": "index.js",
   "scripts": {
     "test": "jshint . && mocha"
   },
   "keywords": [
-    "htpasswd"
+    "htpasswd",
+    "node8"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dickeyxxx/htpasswd-auth"
+    "url": "https://github.com/jean-moulinette/htpasswd-auth"
   },
-  "author": "Jeff Dickey (@dickeyxxx)",
+  "author": "Jean-Moulinette",
   "license": "ISC",
   "devDependencies": {
     "chai": "*",
@@ -21,8 +22,8 @@
     "mocha": "*"
   },
   "dependencies": {
-    "apache-crypt": "^1.0.8",
-    "apache-md5": "^1.0.0",
-    "bcrypt": "^2.0.1"
+    "apache-crypt": "^1.2.5",
+    "apache-md5": "^1.1.7",
+    "bcrypt": "^5.0.1"
   }
 }
