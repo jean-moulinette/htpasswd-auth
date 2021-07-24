@@ -8,7 +8,7 @@ read/write htpasswd files
 ## Setup
 
 ```js
-npm install --save htpasswd-auth
+npm install --save htpasswd-authenticator
 ```
 
 ## Checking if a password is valid
